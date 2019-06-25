@@ -1,0 +1,28 @@
+#main {
+    margin: 20px auto 20px auto;
+    width: 60%;
+    border: lightgray 20px solid;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.date {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: lightskyblue;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+.firstp {
+    border-left: lightgray 5px solid;
+    padding-left: 5px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}

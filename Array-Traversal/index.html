@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+</head>
+<body>
+<h1>Guessing Game</h1>
+
+<script>
+    alert("hello world");
+
+    function printReverse(input) {
+        for (var i = input.length; i >= 0; i--) {
+            console.log(input[i]);
+        }
+    }
+
+    function isUniform(input) {
+        input.forEach(function (item) {
+                if (item !== input[0]) {
+                    return false;
+                }
+            }
+        )
+    }
+
+    var myArr = ['a', 'b', 'c', 'd'];
+    var returnval = isUniform(myArr);
+    if (returnval) {
+        console.log("true");
+    } else {
+        console.log("false");
+    }
+    console.log(isUniform(['a', 'a', 'a', 'a']));
+    if (returnval) {
+        console.log("true");
+    } else {
+        console.log("false");
+    }
+
+    function SumArray(input) {
+        var total = 0;
+        input.forEach(function (item) {
+                total += item;
+            }
+        );
+        return total;
+    }
+
+    console.log(SumArray([1,2,3,4]));
+
+    function max(input) {
+        var max = input[0];
+        input.forEach(function(item){
+            if (item>max){
+                max = item;
+            }
+        });
+        return max;
+    }
+
+    console.log(max([2, 4, 6, 99, 8]));
+
+    // printReverse(myArr);
+
+</script>
+
+</body>
+</html>
